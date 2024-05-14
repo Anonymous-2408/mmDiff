@@ -1,0 +1,13 @@
+[Lidar]
+num_point = 1024
+nblocks = 5
+nneighbor = 16
+num_class = 51
+input_dim = 3
+
+[mmwave]
+nblocks = 5
+nneighbor = 16
+num_class = 51
+input_dim = 5
+
