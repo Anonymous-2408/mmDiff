@@ -39,7 +39,7 @@ python phase1/mmBody/radar_p4trans_train.py
 To train and test phase one using mmFi dataset, please go to mmwave_benchmark.ipynb for training .
 
 ### Phase two Dataset preparation 
-To facilitate phase two training, pretrained model in phase one are utilized to extract GRC features and save to .npz files.
+To facilitate phase two training, pretrained model in phase one are utilized to extract GRC features and coarse human poses $\Tilde{H}$, which are saved to .npz files.
 
 
 ## Phase two

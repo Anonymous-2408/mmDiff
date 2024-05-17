@@ -52,7 +52,7 @@ class P4Transformer(nn.Module):
         )
         self.joint_num = 17
 
-        self.joint_template = nn.Parameter(torch.rand(size = (self.joint_num, 1024)))
+        self.joint_template = nn.Parameter(torch.rand(size = (self.joint_num, 1024)).float())
         self.joint_posembeds_vector = nn.Parameter(torch.tensor(self.get_positional_embeddings1(self.joint_num, 1024)).float())
         # point Prediction Head
         input_dim = dim
